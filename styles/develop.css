@@ -75,18 +75,30 @@ main{
     margin-top: 60px;
     display: flex;
    gap:120px;
-   background-color: antiquewhite;
+   background-color: white;
    padding: 30px 60px;
    border-radius: 15px;
 }
 
+.bg-btn{
+    padding: 12px 20px 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: #FFFFFF;
+}
 .Inspiration-section{
     text-align: center;
     border-radius: 15px;
+    margin-bottom: 60px;
+    margin-top: 80px;
 }
 
 .Target{
+    margin-top: 40px;
     text-align: center;
+    margin-bottom: 60px;
+ padding-bottom: 50px;
 }
 
 .target-flex{
