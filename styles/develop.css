@@ -16,10 +16,24 @@ text-align: center;
 
 }
 
+
 .dev-info{
-    text-align: center;
-    padding:30px  ;
+
+text-align: center;
 }
+.dev-info h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.dev-info p{
+ color: rgb(13, 19, 33);
+ opacity: 0.7;
+ font-size: 24px;
+
+ 
+}
+
 .section-bg{
    
     background-image: url(../assets/Hero-bg.jpeg);
@@ -27,22 +41,43 @@ text-align: center;
 }
 
 .btn-bg{
-    color: #fff;
-    background-color: black;
-    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px 28px 25px 28px;
+    border-radius: 8px;
+    gap: 10;
+background: rgb(13, 19, 33);
+margin-bottom: 40px;
 }
 
 /* main section */
 main{
-    margin: 60px 140px;
+    background-color: #FFFFFF;
+    border: 5px #fff solid;
+    margin: 70px 140px;
+    padding:80px 120px;
+
 }
 
 .why-section{
     text-align: center;
+  
+}
+
+.why-section h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .Do-section{
+    margin-top: 60px;
     display: flex;
+   gap:120px;
+   background-color: antiquewhite;
+   padding: 30px 60px;
+   border-radius: 15px;
 }
 
 .Inspiration-section{
@@ -62,12 +97,32 @@ main{
     
 }
 
-.skill{
+.skill-html{
     text-align: left;
     padding: 30px 20px;
-   background-color: aqua;
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
    border-radius: 15px;
 }
+.skill-css{
+    text-align: left;
+    padding: 30px 20px;
+    border-radius: 16px;
+
+    background:rgba(0, 76, 232, 0.05);
+   border-radius: 15px;
+}
+.skill-js{
+    text-align: left;
+    padding: 30px 20px;
+    border-radius: 16px;
+
+    background:rgba(255, 223, 0, 0.05);
+   border-radius: 15px;
+}
+
+
 
 /* Support-section */
 .Support-section{
@@ -77,14 +132,39 @@ main{
   height: 100%;
      color: #fff;
      margin-top: 60px;
-     padding: 80px 160px;
-     border-radius: 20px;
+     padding: 60px 160px;
+     border-radius: 20px;  
+
 }
 
-.text-input{
-    
+.Support-section h2{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+text-align: center;
 }
 
+.Support-section p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+
+.Support-section input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+margin: 0px 16px;
+gap: 10;
+padding: 19px 20px 19px 20px;
+background: rgb(255, 255, 255);
+}
 /*footer-contaner  */
 
 footer{
@@ -95,17 +175,14 @@ footer{
 .footer-contaner {
     margin: 0px auto;
     max-width: 1440px;
-    background: #bbd7db;
       display: flex;
       justify-content: space-between;
          margin: 80px auto;
-        
        padding: 30px 60px;
+       border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
 }
 
-.opens{
-    
-}
 .icons img{
 padding-left: 40px;
 }
