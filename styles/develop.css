@@ -41,3 +41,19 @@ main{
 .Inspiration-section{
     text-align: center;
 }
+
+.Target{
+    text-align: center;
+}
+
+.target-flex{
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+.skill{
+    text-align: left;
+    padding: 30px 20px;
+   background-color: aqua;
+}
