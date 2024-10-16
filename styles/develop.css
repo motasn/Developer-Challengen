@@ -1,3 +1,43 @@
-h3{
-    background-color: aquamarine;
+body{
+    margin: 0px auto;
+    max-width: 1440px;
+}
+
+
+.img-dev{
+text-align: center;
+
+}
+
+.dev-info{
+    text-align: center;
+    padding:30px  ;
+}
+.section-bg{
+   
+    background-image: url(../assets/Hero-bg.jpeg);
+ 
+}
+
+.btn-bg{
+    color: #fff;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+/* main section */
+main{
+    margin: 60px 140px;
+}
+
+.why-section{
+    text-align: center;
+}
+
+.Do-section{
+    display: flex;
+}
+
+.Inspiration-section{
+    text-align: center;
 }
