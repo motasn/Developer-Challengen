@@ -3,6 +3,13 @@ body{
     max-width: 1440px;
 }
 
+.azeret-mono-fonts {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 
 .img-dev{
 text-align: center;
@@ -40,6 +47,7 @@ main{
 
 .Inspiration-section{
     text-align: center;
+    border-radius: 15px;
 }
 
 .Target{
@@ -49,6 +57,8 @@ main{
 .target-flex{
     justify-content: space-around;
     display: flex;
+  gap: 60px;
+ 
     
 }
 
@@ -56,4 +66,46 @@ main{
     text-align: left;
     padding: 30px 20px;
    background-color: aqua;
+   border-radius: 15px;
+}
+
+/* Support-section */
+.Support-section{
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+  height: 100%;
+     color: #fff;
+     margin-top: 60px;
+     padding: 80px 160px;
+     border-radius: 20px;
+}
+
+.text-input{
+    
+}
+
+/*footer-contaner  */
+
+footer{
+    margin: 0px auto;
+    max-width: 1400px;
+}
+
+.footer-contaner {
+    margin: 0px auto;
+    max-width: 1440px;
+    background: #bbd7db;
+      display: flex;
+      justify-content: space-between;
+         margin: 80px auto;
+        
+       padding: 30px 60px;
+}
+
+.opens{
+    
+}
+.icons img{
+padding-left: 40px;
 }
